@@ -4,6 +4,8 @@ type SiteName =
   | "fionadivine.com"
   | "artbymagpie.com"
   | "rskrules.com"
+  | "kristynacole.com"
+  | "newaura.club"
   | "spwashi.com";
 
 export function SiteContent({
