@@ -17,7 +17,7 @@ function Page() {
         <SiteContent siteName="tealstripesvibes.org">
           <figure>
             <img
-              src="/sites/tealstripesvibes.org/v0.0.1/og/og-image-tealstripesvibes.png"
+              src="/sites/tealstripesvibes.org/v0.0.1/og/og-image.png"
               alt="Teal // Stripes // Vibes"
             />
           </figure>
