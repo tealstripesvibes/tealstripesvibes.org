@@ -19,6 +19,7 @@ export function Sidebar() {
       <nav>
         <Link href="/home">Home</Link>
         <Link href="/about">About</Link>
+        <Link href="/ecosystem">Ecosystem</Link>
         <Link href="/contact">Contact Us</Link>
       </nav>
     </ToggleableMenu>
