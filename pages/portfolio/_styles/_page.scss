@@ -1,0 +1,26 @@
+#page__portfolio {
+  article {
+    ul.skills {
+      margin-bottom: 3rem;
+      padding: 0;
+      li {
+        list-style: none;
+        font-size: 1.5rem;
+        line-height: 3rem;
+      }
+    }
+    ul.websites {
+      padding: 0;
+      li {
+        padding: 0;
+        margin: 0 0 2rem;
+        list-style: none;
+        a {
+          font-size: 1.2rem;
+          text-decoration: none;
+          border-bottom: thin solid var(--page-accent-color--main);
+        }
+      }
+    }
+  }
+}

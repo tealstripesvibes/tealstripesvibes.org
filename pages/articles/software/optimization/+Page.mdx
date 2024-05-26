@@ -1,0 +1,114 @@
+import "../../_styles/_page.scss";
+import {MainHeader, VimeoVideo} from "../../../_include";
+import {EntropyStopMotionVideo} from "../../../about/_videos/EntropyStopMotionVideo";
+
+<MainHeader/>
+<main>
+  <article>
+    # The Clown Animation
+
+    - [view other articles](/articles/software)
+
+    <VimeoVideo
+      videoId="938799228"
+      videoHash="b091bcee08"
+      title="The Clown Animation"
+    />
+
+    [Learn about the Clown
+    Animation](https://www.youtube.com/watch?v=2RaqQZQ3TV0&list=PLMCJGH96K0IQIHELp7ie_Bef0ZIUqCoVE&index=1)
+
+    Check out the playlist [on YouTube](https://www.youtube.com/playlist?list=PLMCJGH96K0IQIHELp7ie_Bef0ZIUqCoVE)
+
+    ## An Allegory
+
+    [The Clown Animation](https://www.youtube.com/watch?v=b1B53t7YOTM&list=PLMCJGH96K0IQIHELp7ie_Bef0ZIUqCoVE&index=8)
+    is media.
+
+    It has size and order.
+
+    <section style={{height: '400px'}}>
+      <EntropyStopMotionVideo/>
+    </section>
+
+    We can modify its [form](/articles/design/language/) and [presentation](/articles/design/presentation/) to match our
+    needs.
+
+    This might have consequences.
+
+    ## Origin
+
+    I used [Procreate](https://procreate.com/) to create the Clown Animation.
+
+    Procreate is nice because of how it cohesively fits into the Apple Pencil user experience.
+
+    There are a lot of ways to gain [meaningful fluency](/articles/design/language/) while exploring Procreate, and I've
+    found
+    [animation](/articles/design/motion/) to be a good excuse to learn more.
+
+    ## Size
+
+    The exported filesize of The Clown Animation varies *wildly* based on how it's handled.
+
+    | Format Extension | File Size | Format Name |
+    | --- | --- | -- |
+    | .PSD | 95.9<span className="unit">MB</span> | PhotoShop Document |
+    | .PDF (layers) | 187.4<span className="unit">MB</span> | Portable Document Format |
+    | .PDF (image) | 1.4<span className="unit">MB</span> | Portable Document Format |
+    | .MP4 | 40.5<span className="unit">MB</span> | MPEG-4 |
+    | .HEVC | 30.6<span className="unit">MB</span> | High Efficiency Video Coding |
+    | .GIF | 15<span className="unit">MB</span> | Graphics Interchange Format |
+    | .PNG (layers) | ~30<span className="unit">MB</span> | Portable Network Graphics |
+    | .PNG (image) | 587<span className="unit">KB</span> | Portable Network Graphics |
+
+
+    ### PDFs
+    The largest file size came from exporting the file as a PDF with layers.
+
+    This is not unusual; PDFs make relatively few assumptions about the content they contain.
+
+    The reason for this is that the PDF format is designed to be a container for a variety of content types, and it's
+    not optimized for any one of them.
+
+    Therefore, compression is not a priority in the PDF format.
+
+    ### PNGs
+    Exporting the image as PNG files invoked network conditions as a point of workflow friction.
+
+    While it is something I've done before, the number of files and the context of their handling made it a bit of a
+    pain to manage this time.
+
+    In checking the filetype file sizes for this article,
+    not all of the PNGs were successfully transferred from my iPad to the cloud to my computer.
+
+    As I uploaded the images to the cloud, the aggregate data size and the number of items in the batch caused a
+    processing error, and I ended up with a partial download of 270/342 images.
+
+    The network failure wasn't because of the file size or format here, but the number of files and the context of their
+    handling.
+
+    Because each layer was exported as a separate PNG file, this 342 frame animation stretched the limits of my
+    bandwidth with an files that were only ~65KB on average.
+
+    Perhaps if I were using a <a href="#for__a-different-device">different device</a>,
+    <a href="#for__a-different-application">different application</a>,
+    or <a href="#for__a-different-location">different location</a>, this wouldn't
+    have been an issue.
+
+    A <a id="for__a-different-device" href="https://www.amazon.com/Your-Device-Keith-Thomas-LaSpaluto/dp/B08MW984KP">different device</a> might handle network connections differently by
+    default.
+    Power settings might be different, or the device might have a different network card.
+
+    As a developer, I need to be mindful to consider my own devices with a grain of salt as they can be quite different
+    than what my audience is using.
+
+    A <a id="for__a-different-application" href="https://factshift.com">different application</a>
+    might spawn a lower number of more
+    reliable connections, or it might have a more robust error handling system.
+
+    The application I used uploaded the files one-by-one, and it didn't have a way to resume the upload after the
+    partial network failure.
+
+    A <a id="for__a-different-location" href="https://in.bane.land">different location</a> might have a more reliable network connection.
+  </article>
+</main>

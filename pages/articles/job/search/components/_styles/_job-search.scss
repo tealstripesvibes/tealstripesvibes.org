@@ -1,0 +1,43 @@
+#the-job-search {
+  figure {
+    width: calc(min(500px, 90vw));
+    height: 400px;
+    margin: 0 auto;
+    iframe {
+      height: 100%;
+    }
+  }
+  section.intentional-effort {
+    margin-top: 4rem;
+    > header {
+      background: black;
+      font-size: 2rem;
+      padding: 1rem 0;
+      outline: thick double var(--page-accent-color--dark);
+    }
+    > section ul {
+      list-style: disc;
+      li, a {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .how-this-helps {
+    padding-top: 1rem;
+    text-align: left;
+    p {
+      margin-bottom: .25rem;
+      &:first-child {
+        background: var(--page-accent-color--pastel-light);
+        color: var(--page-text-color--dark);
+        padding: 1rem;
+      }
+    }
+    ul {
+      list-style: none;
+    }
+  }
+  .upcoming-highlight {
+    color: var(--page-accent-color--main)
+  }
+}

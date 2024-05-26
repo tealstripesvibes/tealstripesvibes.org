@@ -1,0 +1,48 @@
+import "../../../_styles/_page.scss";
+import {MainHeader} from "../../../../_include";
+
+<MainHeader/>
+<main>
+  <article>
+    # How I'm Looking for a Job
+
+
+    ## Code
+
+    This code copies the URLs of all the job listings I've saved on LinkedIn into an array.
+    <code>{`var arr  = arr || [];
+arr.push(
+  ...new Set(
+    [...document.querySelectorAll('a')]
+      .filter(
+        a => a.href.indexOf('flagship3_job_home_savedjobs') > -1).map(a => a.href.split('?')[0]
+      )
+  )
+)`}</code>
+
+    ## Inspiration
+    <section style={{textAlign: 'left', fontSize: '1.2rem', lineHeight: '3rem'}}>
+      - [Riemann Sum](https://en.wikipedia.org/wiki/Riemann_sum) | My Work Experience
+        - I work on a [rhythm](/rhythm)
+        - My schedule helps me [increment](https://youtu.be/05eCntuaSfw)
+        - I'm looking for a job that will...
+          - share rhythms with me
+          - maintain momentum with me
+          - build mutual structures for success with me
+      - [Directional Derivative](https://en.wikipedia.org/wiki/Directional_derivative) | My Job Search
+        - Perspectives can change
+        - Language is tricky
+        - I'm looking for a job that will...
+          - help me learn new languages
+          - recognize me where I'm going
+          - grow with me as I develop
+      - [Regenerative Braking](https://en.wikipedia.org/wiki/Regenerative_braking) | The Application Process
+        - Lubrication aids motion
+        - Friction can be harnessed
+        - I'm looking for interview processes that will...
+          - provide opportunities for me to make content about a topic
+          - introduce me to topics I haven't considered
+          - find ground in modern hiring considerations
+    </section>
+  </article>
+</main>

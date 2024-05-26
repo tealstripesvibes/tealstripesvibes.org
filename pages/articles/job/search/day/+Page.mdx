@@ -1,0 +1,22 @@
+import "../../../_styles/_page.scss";
+import {MainHeader, VimeoVideo} from "../../../../_include";
+
+<MainHeader/>
+<main>
+  <article>
+    {
+      [
+        ["939217624/d3b35886c4", "08:41 AM", "[On My Mind]"],
+        ["939218093/31141f1a95", "09:43 AM", "[Teal/Stripes/Vibes]"],
+        ["939218992/b9fa83afad", "10:57 AM", "[Start the Day]"],
+        ["939218145/52dac9ce1d", "11:26 AM", "[Continue Yesterday]"],
+        ["939246898/020429ffd4", "13:26 AM", "[Revisit This]"],
+      ].map(([str, time, title]) => <VimeoVideo
+        title={[time, title]}
+        key={str}
+        videoId={str.split('/')[0]}
+        videoHash={str.split('/')[1]}
+      />)
+    }
+  </article>
+</main>
