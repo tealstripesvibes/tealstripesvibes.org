@@ -10,22 +10,16 @@ function Page() {
   return (
     <main id="page__index">
       <Helmet>
-        <title>Index &bull; Spwashi</title>
+        <title>Teal // Stripes // Vibes</title>
       </Helmet>
       <article>
-        <h1>Hello.</h1>
-        <h2>I'm spwashi.</h2>
-        <a href={mainRoutes.about.href}>
-          <figure>
-            <img
-              src="/sites/spwashi.com/v0.0.1/spwashi/spwashi.webp"
-              alt="spwashi logo"
-            />
-            <figcaption>spwashi</figcaption>
-          </figure>
-        </a>
-        <h3>I build software and make art.</h3>
-        <LearnMore learnMoreLink={mainRoutes.home.href} />
+        <h1>Teal // Stripes // Vibes</h1>
+        <figure>
+          <img
+            src="/sites/tealstripesvibes.org/v0.0.1/og/og-image-tealstripesvibes.png"
+            alt="Teal // Stripes // Vibes"
+          />
+        </figure>
       </article>
       <MainHeader />
     </main>

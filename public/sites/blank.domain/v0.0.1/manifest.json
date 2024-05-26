@@ -1,11 +1,11 @@
 {
-  "short_name": "spwashi",
-  "name": "spwashi",
+  "short_name": "blank--domain",
+  "name": "Blank.Domain",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "theme_color": "#11abab",
-  "background_color": "#336289",
+  "theme_color": "#111111",
+  "background_color": "#111111",
   "icons": [
     {
       "src": "/sites/blank.domain/v0.0.1/logo/scale/16x16.png",

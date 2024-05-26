@@ -17,7 +17,7 @@ function HeadDefault() {
       <meta property="og:url" content={`https://${siteDomain}`} />
       <meta
         property="og:image"
-        content={`/sites/${siteDomain}/v0.0.1/og/og-image-spwashi.png`}
+        content={`/sites/${siteDomain}/v0.0.1/og/og-image-tealstripesvibes.png`}
       />
       <meta property="og:title" content={`${siteDomain}`} />
       <meta property="og:description" content={`welcome to ${siteDomain}`} />
