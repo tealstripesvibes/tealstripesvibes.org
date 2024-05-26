@@ -1,8 +1,7 @@
 import { MainHeader } from "@core/components/layout/components/header/MainHeader";
 import "./_styles/_page.scss";
-import { LearnMore } from "@features/learn-more/LearnMore";
-import { mainRoutes } from "@identities/routes";
 import { Helmet } from "react-helmet";
+import { SiteContent } from "@features/site-content/SiteContent";
 
 export { Page };
 
@@ -14,12 +13,15 @@ function Page() {
       </Helmet>
       <article>
         <h1>Teal // Stripes // Vibes</h1>
-        <figure>
-          <img
-            src="/sites/tealstripesvibes.org/v0.0.1/og/og-image-tealstripesvibes.png"
-            alt="Teal // Stripes // Vibes"
-          />
-        </figure>
+        <h2>{import.meta.env.VITE_SITE_DOMAIN}</h2>
+        <SiteContent siteName="tealstripesvibes.org">
+          <figure>
+            <img
+              src="/sites/tealstripesvibes.org/v0.0.1/og/og-image-tealstripesvibes.png"
+              alt="Teal // Stripes // Vibes"
+            />
+          </figure>
+        </SiteContent>
       </article>
       <MainHeader />
     </main>
