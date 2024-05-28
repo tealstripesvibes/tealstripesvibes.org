@@ -21,8 +21,9 @@ function Page() {
   return (
     <main id="page__ecosystem">
       <Helmet>
-        <title></title>
+        <title>Ecosystem</title>
       </Helmet>
+      <MainHeader />
       <article>
         <h1>Our Ecosystem</h1>
         <h2>Humans</h2>
@@ -44,7 +45,6 @@ function Page() {
           ))}
         </ul>
       </article>
-      <MainHeader />
     </main>
   );
 }
