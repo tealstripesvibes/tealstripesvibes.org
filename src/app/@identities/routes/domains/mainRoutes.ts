@@ -42,4 +42,3 @@ export const mainRoutes = {
   contact: mainContactRoute,
   ecosystem: mainEcosystemRoute,
 };
-export const funRoutes = {};
