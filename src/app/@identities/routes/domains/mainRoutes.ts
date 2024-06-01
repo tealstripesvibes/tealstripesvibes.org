@@ -34,6 +34,13 @@ const mainEcosystemRoute: IRouteConfig = <const>{
   absolutePath: "/ecosystem",
   subConfigMap: {},
 };
+const mainArticlesRoute: IRouteConfig = <const>{
+  id: "scene__articles",
+  href: "/articles",
+  title: "Articles",
+  absolutePath: "/articles",
+  subConfigMap: {},
+};
 
 export const mainRoutes = {
   root: mainRootRoute,
@@ -41,5 +48,5 @@ export const mainRoutes = {
   about: mainAboutRoute,
   contact: mainContactRoute,
   ecosystem: mainEcosystemRoute,
+  articles: mainArticlesRoute,
 };
-export const funRoutes = {};
